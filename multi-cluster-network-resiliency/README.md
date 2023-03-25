@@ -3,7 +3,7 @@ This demo shows you how to bootstrap three GKE clusters into a multi-cluster net
 
 ## How to run 
 
-1. **Go through the [GKE PoC Toolkit quickstart](https://github.com/GoogleCloudPlatform/gke-poc-toolkit#quickstart) up until the `gkekitctl create` and stop at step 6 (gkekitctl init).** 
+1. **Go through the [GKE PoC Toolkit quickstart](https://github.com/GoogleCloudPlatform/gke-poc-toolkit#quickstart) up until the `gkekitctl apply` and stop at step 6 (gkekitctl init).** 
 
 2. **Copy `multi-clusters-networking-acm-standalone-vpc.yaml` from the samples folder to wherever you're running the toolkit from.**
 
@@ -27,7 +27,7 @@ else
 fi
 ```
 
-4. **Run `./gkekitctl create --config config.yaml` from this directory.** This will take about 30 minutes to run.
+4. **Run `./gkekitctl apply --config config.yaml` from this directory.** This will take about 30 minutes to run.
 
 5. **Connect to your newly-created GKE clusters.**
 

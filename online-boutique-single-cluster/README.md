@@ -4,7 +4,7 @@ This is a simple, 1-cluster demo of the GKE Poc Toolkit using the [Online Boutiq
 
 ## How to run 
 
-1. **Go through the [GKE PoC Toolkit quickstart](https://github.com/GoogleCloudPlatform/gke-poc-toolkit#quickstart) up until the `gkekitctl create` step.** 
+1. **Go through the [GKE PoC Toolkit quickstart](https://github.com/GoogleCloudPlatform/gke-poc-toolkit#quickstart) up until the `gkekitctl apply` step.** 
 
 2. **Export your project ID var.** 
 
@@ -15,7 +15,7 @@ export PROJECT_ID=<your-project-id>
 
 4. **Copy `config.yaml` to wherever you're running the toolkit from.**
 
-5. **Run `gkekitctl create --config config.yaml` from this directory.** This will take about 10 minutes to run.
+5. **Run `gkekitctl apply --config config.yaml` from this directory.** This will take about 10 minutes to run.
 
 6. **Connect to your newly-created GKE cluster.** 
 
